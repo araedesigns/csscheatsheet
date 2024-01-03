@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Typography Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>CSS Typography Cheat Sheet</h1>
+    </header>
+    <main>
+        <h2>Font Properties</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Values</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class='property'>font-family</td>
+              <td>default fonts:
+                <br><span id="serif">serif</span> 
+                <br><span id="sans-serif">sans-serif</span> 
+                <br><span id="monospace">monospace</span> 
+                <br><span id="cursive">cursive</span> 
+                <br><span id="fantasy">fantasy</span>
+                <br>
+                <br>Other fonts can be specified if web safe or linked.
+                </td>
+            </tr>
+            <tr>
+              <td class='property'>font-size</td>
+              <td>px, em</td>
+            </tr>
+            <tr>
+              <td class='property'>font-style</td>
+              <td>normal 
+                <br><span id="italic">italic</span>
+                </td>
+            </tr>
+            <tr>
+              <td class='property'>font-weight</td>
+              <td>normal
+                <br><span id="bold"> bold</span>
+                <br><span id="bolder">bolder</span>
+                <br><span id="lighter"> lighter</span> 
+                <br>
+                <br> 100-900 (where 400 = normal)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      <h2>Text Properties</h2>
+       <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Values</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class='property'>text-transform</td>
+              <td>none 
+                <br><span id="uppercase">uppercase</span>
+                <br><span id="lowercase"> lowercase</span>
+                <br><span id="capitalize">capitalize</span>
+              </td>
+            </tr>
+            <tr>
+              <td class='property'>text-align</td>
+              <td><span id="left">left</span>
+                <br><span id="right">right</span>
+                <br><span id="center">center</span>
+                <br><span id="justify">justify</span>
+                </td>
+            </tr>
+            <tr>
+              <td class='property'>text-decoration</td>
+              <td>none 
+                <br><span id="underline">underline</span>
+                <br><span id="overline">overline</span>
+                <br><span id="line-through">line-through</span>
+                </td>
+            </tr>
+            <tr>
+              <td class='property'>text-shadow</td>
+              <td>must set four values: horizontal offset, vertical offset, blur radius, color. 
+                <br>
+                <br>typically px for offset.</td>
+            </tr>
+          </tbody>
+        </table>
+
+      <h2>Spacing Properties</h2>
+      <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Values</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class='property'>line-height</td>
+              <td>best practice is to use unitless value, which mutliplies by font size (i.e 1.5 or 2)</td>
+            </tr>
+            <tr>
+              <td class='property'>letter-spacing</td>
+              <td>em is best practice</td>
+            </tr>
+            <tr>
+              <td class='property'>word-spacing</td>
+              <td>em is best practice</td>
+            </tr>
+          </tbody>
+        </table>
+      <h2>Helpful Links</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Link</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals#other_properties_worth_looking_at" target="_blank">Other Properties</a></td>
+              <td>MDN reference of other text styling properties to explore</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.cssfontstack.com/" target="_blank">Web Safe Fonts</a></td>
+              <td>List of web safe fonts by operating system</td>
+            </tr>
+            <tr>
+              <td><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></td>
+              <td>Free google fonts to link and download</td>
+            </tr>
+          </tbody>
+        </table>
+
+    </main>
+  </body>
+</html>

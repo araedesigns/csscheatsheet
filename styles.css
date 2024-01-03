@@ -1,0 +1,120 @@
+body{
+  background-color: MediumAquamarine;
+}
+
+header {
+  font-family: 'Rubik Doodle Shadow', 'Impact', 'Arial Black', fantasy; 
+  text-align: center;
+  color: black;
+  background-color: papayawhip; 
+  border-radius: 50%;
+  margin: auto;
+  max-width: 500px;
+  padding: 5px;
+}
+
+main {
+  font-family: 'Grandstander', 'Verdana', sans-serif; 
+}
+
+h2{
+  text-align: center;
+  margin: 50px 20px 20px 20px;
+}
+
+table {
+  width: 75%;
+  margin: auto;
+}
+
+th{
+  border: 4px solid black;
+  padding: 10px;
+  background-color: peru;
+}
+
+td {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: papayawhip;
+  line-height: 1.5;
+}
+
+.property{
+  font-family: 'JetBrains Mono', monospace;
+  background-color: wheat;
+}
+
+#serif{
+  font-family: serif;
+}
+
+#sans-serif{
+  font-family: sans-serif;
+}
+
+#monospace{
+  font-family: monospace;
+}
+
+#cursive{
+  font-family: cursive;
+}
+
+#fantasy{
+  font-family: fantasy;
+}
+
+#italic{
+  font-style: italic;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+#bolder{
+  font-weight: bolder;
+}
+
+#lighter{
+  font-weight: lighter;
+}
+
+#uppercase{
+  text-transform: uppercase;
+}
+
+#capitalize{
+  text-transform: capitalize;
+}
+
+#right{
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+
+#center{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+#justify{
+  text-align: justify;
+  display: inline-block;
+  width: 100%;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+#overline{
+  text-decoration: overline;
+}
+
+#line-through{
+  text-decoration: line-through;
+}
